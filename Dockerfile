@@ -1,4 +1,5 @@
-FROM kong:1.0.3-alpine
+FROM kong:2.4.0
+USER root
 
 # bash is necessary to run the wait-for-it script
 RUN apk add --update bash
